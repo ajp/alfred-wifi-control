@@ -5,14 +5,6 @@ import sys
 import collections
 
 commands = collections.OrderedDict()
-commands['on'] = {
-    'command': 'on up activate',
-    'title': 'Wi-Fi On'
-  }
-commands['off'] = {
-    'command': 'off down deactivate',
-    'title': 'Wi-Fi Off'
-  }
 commands['toggle'] = {
     'command': 'toggle change switch',
     'title': 'Wi-Fi Toggle'
